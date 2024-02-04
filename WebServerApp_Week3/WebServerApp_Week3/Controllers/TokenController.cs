@@ -8,6 +8,8 @@ using System.Net.Http;
 using System.Security.Claims;
 using System.Text;
 using TokenService.Models;
+using System.Reflection;
+using TokenService;
 
 namespace TokenService.Controllers
 {

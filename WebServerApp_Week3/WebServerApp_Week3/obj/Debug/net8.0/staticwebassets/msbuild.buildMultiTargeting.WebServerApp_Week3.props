@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebServerApp_Week3.props" />
+</Project>
