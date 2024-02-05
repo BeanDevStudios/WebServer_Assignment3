@@ -29,8 +29,8 @@ namespace WebServerApp_Week3
                 options.UseSqlServer(builder.Configuration.GetConnectionString(connectionName));
             });
 
-            builder.Services.AddSingleton<IValidator>();
-            //builder.Services.AddScoped<IValidator, Validator>();
+            //builder.Services.AddSingleton<IValidator>();
+            builder.Services.AddScoped<IValidator>();
             //builder.Services.AddTransient<IValidator, Validator>();
             //builder.Services.AddTransient<IValidator>(validator => new Validator(true));
 
